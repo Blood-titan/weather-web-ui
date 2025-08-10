@@ -6,7 +6,7 @@ import pandas as pd
 
 import os
 
-load_dotenv()
+
 API = "a1cb970c8087477db6880939251506"
 
 BASE_URL = "http://api.weatherapi.com/v1/current.json?key=" + API
