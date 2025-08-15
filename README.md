@@ -1,4 +1,4 @@
-## 🌦️ Weather App
+## 🌦️ weather-web-ui
 
 A simple and interactive **Streamlit** app that lets users search for and view real-time weather data for cities worldwide using the **WeatherAPI**.
 
