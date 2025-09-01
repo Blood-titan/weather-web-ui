@@ -20,7 +20,7 @@ def load_city_list():
     Returns:
     list: A list of unique city names.
     """
-    df = pd.read_csv(os.path.join(os.getcwd(), r"src\data\worldcities.csv"))
+    df = pd.read_csv(os.path.join(os.getcwd(), r"data/worldcities.csv"))
     return df["city"].dropna().unique().tolist()
 
 
